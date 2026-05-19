@@ -19,9 +19,12 @@ https://www.matthewschacherbauer.com/wp/2026/02/preparing-vmware-vms-for-the-202
 https://gist.github.com/asheroto/942db6b331db8f070472990da6e6e1db
 ## Azure
 https://www.jlaundry.nz/2022/azure_region_abbreviations/
+https://www.ibm.com/think/x-force/identifying-abusing-azure-arc-for-hybrid-escalation-persistence
 https://www.nsideattacklogic.de/azure-arc-part-2-escalation-from-cloud-to-on-premises/
+https://www.gradenegger.eu/en/using-authentication-mechanism-assurance-ama-to-secure-the-login-of-administrative-accounts/
 ## Veeam
 https://bp.veeam.com/security/Design-and-implementation/Hardening/WORM_Storage_with_Veeam_Hardened_Repository.html
+https://www.veeam.com/kb4800
 ## Linux - RHEL
 ## Linux - General
 ## MISC
