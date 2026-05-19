@@ -1,5 +1,19 @@
 # 📚 Resources & Useful Links
 
+## 📋 Table of Contents
+* [☁️ Azure](#️-azure)
+* [🏛️ Microsoft AD DS](#️-microsoft-ad-ds)
+* [🔑 Microsoft AD CS](#-microsoft-ad-cs)
+* [🖥️ Microsoft Windows Server](#️-microsoft-windows-server)
+* [🌐 PKI (Public Key Infrastructure)](#-pki-public-key-infrastructure)
+* [🐧 Linux - RHEL](#-linux---rhel)
+* [🐧 Linux - General](#-linux---general)
+* [💾 Veeam](#-veeam)
+* [⚙️ MISC](#️-misc)
+* [📝 Cheat Sheets](#-cheat-sheets)
+
+---
+
 ## ☁️ Azure
 
 ### 📋 Articles and Guides
@@ -14,6 +28,8 @@
 
 *No scripts saved yet.*
 </details>
+
+[▲ Back to Top](#-table-of-contents)
 
 ---
 
@@ -30,6 +46,8 @@
 * 🚀 [PAWDeploy (DeploymentBunny)](https://github.com/DeploymentBunny/PAWDeploy/blob/main/README.md) – *Implementation and deployment of Privileged Access Workstations.*
 * ⚙️ [Build-Tier0-AuthPolicySilo.ps1](https://github.com/canix1/T0AuthSilo/blob/main/Build-Tier0-AuthPolicySilo.ps1) – *PowerShell script to build Authentication Policy Silos for Tier 0.*
 
+[▲ Back to Top](#-table-of-contents)
+
 ---
 
 ## 🔑 Microsoft AD CS
@@ -43,12 +61,16 @@
 ### 📜 Scripts
 * ☁️ [Invoke-UpdateAzureBlobPKIStorage.ps1](https://github.com/dstreefkerk/PowerShell/blob/master/Microsoft%20ADCS/Invoke-UpdateAzureBlobPKIStorage.ps1) – *Script to upload ADCS files (e.g., CRLs) to Azure Blob Storage.*
 
+[▲ Back to Top](#-table-of-contents)
+
 ---
 
 ## 🖥️ Microsoft Windows Server
 
 ### 📜 Scripts
 * ⏱️ [Set-WindowsTimeZone.ps1 (Gist)](https://gist.github.com/asheroto/942db6b331db8f070472990da6e6e1db) – *Gist to automatically set the time zone based on location.*
+
+[▲ Back to Top](#-table-of-contents)
 
 ---
 
@@ -63,6 +85,8 @@
 ### 📜 Scripts
 * 🔒 [testssl.sh Repository](https://github.com/testssl/testssl.sh) – *Classic command-line tool to test TLS/SSL encryption on any port.*
 
+[▲ Back to Top](#-table-of-contents)
+
 ---
 
 ## 🐧 Linux - RHEL
@@ -74,6 +98,8 @@
 *No scripts saved yet.*
 </details>
 
+[▲ Back to Top](#-table-of-contents)
+
 ---
 
 ## 🐧 Linux - General
@@ -84,6 +110,8 @@
 
 *No scripts saved yet.*
 </details>
+
+[▲ Back to Top](#-table-of-contents)
 
 ---
 
@@ -100,6 +128,8 @@
 *No scripts saved yet.*
 </details>
 
+[▲ Back to Top](#-table-of-contents)
+
 ---
 
 ## ⚙️ MISC
@@ -112,8 +142,12 @@
 * 💻 [pwpush-cli](https://github.com/pglombardo/pwpush-cli) – *CLI tool for Password Pusher to safely send passwords from the terminal.*
 * 📂 [Filebrowser Repository](https://github.com/filebrowser/filebrowser?tab=readme-ov-file) – *A self-hosted web-based file manager interface.*
 
+[▲ Back to Top](#-table-of-contents)
+
 ---
 
 ## 📝 Cheat Sheets
 
 * ⌨️ [VS Code Keyboard Shortcuts for macOS (PDF)](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf) – *Official cheat sheet for VS Code shortcuts on Mac.*
+
+[▲ Back to Top](#-table-of-contents)
