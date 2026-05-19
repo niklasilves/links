@@ -103,7 +103,7 @@
 ---
 
 ## 🐧 Linux - General
-
+* ⚠️ [Linux Privilege Escalation (CVE-2026-31431)](https://guardsix.com/blog/linux-privilege-escalation-cve-2026-31431-copy-fail-exploit-and-detection) - *Copy Fail Exploit and Detection*
 ### 📜 Scripts
 <details>
 <summary>View Linux Scripts (Click to expand)</summary>
