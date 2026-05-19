@@ -11,7 +11,10 @@ https://github.com/canix1/T0AuthSilo/blob/main/Build-Tier0-AuthPolicySilo.ps1
 https://michaelwaterman.nl/2022/11/17/the-microsoft-root-certificate-program/
 https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn786423(v=ws.11)
 https://download.microsoft.com/download/0/F/A/0FA8C3B6-4792-43B2-8437-51C69F199701/Securing%20Public%20Key%20Infrastructure%20(PKI).docx
+https://www.gradenegger.eu/en/removing-old-certification-authority-certificates-from-the-configuration-of-a-certification-authority/
 ## PKI
+aka.ms/monitorpki
+https://aka.ms/securingpki
 https://www.linkedin.com/pulse/why-lets-encrypt-finally-retired-ocspand-whats-next-webpki-mallaya-99crc/
 https://github.com/testssl/testssl.sh
 https://www.matthewschacherbauer.com/wp/2026/02/preparing-vmware-vms-for-the-2026-microsoft-secure-boot-certificate-expiration/
