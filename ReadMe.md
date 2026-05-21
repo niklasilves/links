@@ -42,6 +42,7 @@
 * 📘 [Securing Public Key Infrastructure (PKI) Whitepaper](https://download.microsoft.com/download/0/F/A/0FA8C3B6-4792-43B2-8437-51C69F199701/Securing%20Public%20Key%20Infrastructure%20(PKI).docx) – *Official Microsoft Word document for securing PKI.*
 * 🧼 [Removing Old CA Certificates](https://www.gradenegger.eu/en/removing-old-certification-authority-certificates-from-the-configuration-of-a-certification-authority/) – *How to remove old CA certificates from the Certification Authority configuration.*
 * 📋 [CRL strategies](https://www.sysadmins.lv/retired-msft-blogs/xdot509/pki-design-considerations-certificate-revocation-and-crl-publishing-strategies.aspx) – *PKI Design Considerations: Certificate Revocation and CRL Publishing Strategies*
+* 📋 [CRYPT_E_REVOCATION_OFFLINE](https://www.gradenegger.eu/en/the-certification-authority-service-does-not-start-and-throws-the-error-message-0x80092013-2146885613-crypt_e_revocation_offline/) – *TSHOOT and manage CA service wont start because revocation list not reacheble*
 
 #### 📜 Scripts
 * ☁️ [Invoke-UpdateAzureBlobPKIStorage.ps1](https://github.com/dstreefkerk/PowerShell/blob/master/Microsoft%20ADCS/Invoke-UpdateAzureBlobPKIStorage.ps1) – *Script to upload ADCS files (e.g., CRLs) to Azure Blob Storage.*
