@@ -302,12 +302,7 @@
 
 #### 📜 Scripts
 
-<details>
-<summary>View Linux Scripts</summary>
-
 *No scripts saved yet.*
-
-</details>
 
 [▲ Back to Top](#-table-of-contents)
 
@@ -317,12 +312,7 @@
 
 #### 📜 Scripts
 
-<details>
-<summary>View RHEL Scripts</summary>
-
 *No scripts saved yet.*
-
-</details>
 
 [▲ Back to Top](#-table-of-contents)
 
@@ -379,12 +369,7 @@
 
 #### 📜 Scripts
 
-<details>
-<summary>View Veeam Scripts</summary>
-
 *No scripts saved yet.*
-
-</details>
 
 [▲ Back to Top](#-table-of-contents)
 
