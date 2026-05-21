@@ -2,15 +2,15 @@
 
 ## 📋 Table of Contents
 * [☁️ Azure](#️-azure)
-* [🏛️ Microsoft AD DS](#️-microsoft-ad-ds)
 * [🔑 Microsoft AD CS](#-microsoft-ad-cs)
+* [🏛️ Microsoft AD DS](#️-microsoft-ad-ds)
 * [🖥️ Microsoft Windows Server](#️-microsoft-windows-server)
 * [🌐 PKI (Public Key Infrastructure)](#-pki-public-key-infrastructure)
 * [📋 Zero Trust](#-zero-trust)
-* [🐧 Linux - RHEL](#-linux---rhel)
 * [🐧 Linux - General](#-linux---general)
-* [💾 Veeam](#-veeam)
+* [🐧 Linux - RHEL](#-linux---rhel)
 * [⚙️ MISC](#️-misc)
+* [💾 Veeam](#-veeam)
 * [📝 Cheat Sheets](#-cheat-sheets)
 
 ---
@@ -33,6 +33,23 @@
 
 ---
 
+## 🔑 Microsoft AD CS
+### 📋 Articles and Guides
+* 📄 [Constraints what they are and how they're used](https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/constraints-what-they-are-and-how-they8217re-used/1129048) – *Explains CAPolicy.inf constraints.*
+* 📄 [The Microsoft Root Certificate Program](https://michaelwaterman.nl/2022/11/17/the-microsoft-root-certificate-program/) – *Overview of the Microsoft Root Certificate Program.*
+* 🏛️ [Securing Public Key Infrastructure (PKI) - TechNet](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn786423(v=ws.11)) – *Legacy but fundamental documentation for PKI security.*
+* 🔑 [Certificate Lifetime From a Risk based approache](https://michaelwaterman.nl/2026/02/23/pki-certificate-lifetimes-from-a-risk-based-approach/) – *What determines certificate lifetimes?*
+* 📘 [Securing Public Key Infrastructure (PKI) Whitepaper](https://download.microsoft.com/download/0/F/A/0FA8C3B6-4792-43B2-8437-51C69F199701/Securing%20Public%20Key%20Infrastructure%20(PKI).docx) – *Official Microsoft Word document for securing PKI.*
+* 🧼 [Removing Old CA Certificates](https://www.gradenegger.eu/en/removing-old-certification-authority-certificates-from-the-configuration-of-a-certification-authority/) – *How to remove old CA certificates from the Certification Authority configuration.*
+* 📋 [CRL strategies](https://www.sysadmins.lv/retired-msft-blogs/xdot509/pki-design-considerations-certificate-revocation-and-crl-publishing-strategies.aspx) – *PKI Design Considerations: Certificate Revocation and CRL Publishing Strategies*
+
+### 📜 Scripts
+* ☁️ [Invoke-UpdateAzureBlobPKIStorage.ps1](https://github.com/dstreefkerk/PowerShell/blob/master/Microsoft%20ADCS/Invoke-UpdateAzureBlobPKIStorage.ps1) – *Script to upload ADCS files (e.g., CRLs) to Azure Blob Storage.*
+
+[▲ Back to Top](#-table-of-contents)
+
+---
+
 ## 🏛️ Microsoft AD DS
 ### 📋 Articles and Guides
 * 📜 [Deep Dive: Active Directory LDAPS Certificate Selection](https://michaelwaterman.nl/2026/02/03/deep-dive-active-directory-ldaps-certificate-selection/) – *Deep Dive: Active Directory LDAPS Certificate Selection*
@@ -42,7 +59,7 @@
 * 📜 [Modernizing RDP Certificates](https://michaelwaterman.nl/2026/02/08/modernizing-rdp-certificates/) – *Michael Waterman on modernizing RDP certificates.*
 * 🔒 [Protecting Tier 0: The Modern Way](https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/protecting-tier-0-the-modern-way/4052851) – *Official Microsoft guide on modern Tier 0 protection.*
 * 🔑 [On-Prem Conditional Access](https://michaelwaterman.nl/2026/04/17/on-prem-conditional-access-you-never-knew-you-had/) – *On-premises conditional access features you might not know existed.*
-* 📋 [CRL strategies](https://www.sysadmins.lv/retired-msft-blogs/xdot509/pki-design-considerations-certificate-revocation-and-crl-publishing-strategies.aspx) – *PKI Design Considerations: Certificate Revocation and CRL Publishing Strategies*
+* 🎓 [Prepare you for the APL-1008 Administer Active Directory Domain Services](https://learn.microsoft.com/en-us/training/paths/administer-active-directory-domain-services/) – *Administer Active Directory Domain Services.*
 
 ### 📜 Scripts
 * 🛠️ [TierLevelIsolation Repository](https://github.com/Kili69/TierLevelIsolation) – *Main repository and root folder for tier-level isolation.*
@@ -53,21 +70,6 @@
 
 ---
 
-## 🔑 Microsoft AD CS
-### 📋 Articles and Guides
-* 📄 [Constraints what they are and how they're used](https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/constraints-what-they-are-and-how-they8217re-used/1129048) – *Explains CAPolicy.inf constraints.*
-* 📄 [The Microsoft Root Certificate Program](https://michaelwaterman.nl/2022/11/17/the-microsoft-root-certificate-program/) – *Overview of the Microsoft Root Certificate Program.*
-* 🏛️ [Securing Public Key Infrastructure (PKI) - TechNet](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn786423(v=ws.11)) – *Legacy but fundamental documentation for PKI security.*
-* 🔑 [Certificate Lifetime From a Risk based approache](https://michaelwaterman.nl/2026/02/23/pki-certificate-lifetimes-from-a-risk-based-approach/) – *What determines certificate lifetimes?*
-* 📘 [Securing Public Key Infrastructure (PKI) Whitepaper](https://download.microsoft.com/download/0/F/A/0FA8C3B6-4792-43B2-8437-51C69F199701/Securing%20Public%20Key%20Infrastructure%20(PKI).docx) – *Official Microsoft Word document for securing PKI.*
-* 🧼 [Removing Old CA Certificates](https://www.gradenegger.eu/en/removing-old-certification-authority-certificates-from-the-configuration-of-a-certification-authority/) – *How to remove old CA certificates from the Certification Authority configuration.*
-
-### 📜 Scripts
-* ☁️ [Invoke-UpdateAzureBlobPKIStorage.ps1](https://github.com/dstreefkerk/PowerShell/blob/master/Microsoft%20ADCS/Invoke-UpdateAzureBlobPKIStorage.ps1) – *Script to upload ADCS files (e.g., CRLs) to Azure Blob Storage.*
-
-[▲ Back to Top](#-table-of-contents)
-
----
 
 ## 🖥️ Microsoft Windows Server
 ### 📋 Articles and Guides
@@ -87,6 +89,8 @@
 * 📊 [Monitor PKI (aka.ms/monitorpki)](https://aka.ms/monitorpki) – *Microsoft shortcut link for PKI monitoring.*
 * 🛡️ [Securing PKI (aka.ms/securingpki)](https://aka.ms/securingpki) – *Microsoft shortcut link for PKI security recommendations.*
 * 🥾 [Preparing VMware VMs for 2026 Secure Boot Expiration](https://www.matthewschacherbauer.com/wp/2026/02/preparing-vmware-vms-for-the-2026-microsoft-secure-boot-certificate-expiration/) – *Guide on handling expired Secure Boot certificates on VMware VMs.*
+* 🎞️ [TLS Handshake Deep Dive and decryption with Wireshark](https://www.youtube.com/watch?v=25_ftpJ-2ME&t) – *TLS Explained.*
+* 🎞️ [What happens when a client connects?](https://youtu.be/C4Gtq5anlyc?si=pGrIfeUhyCTFJZIU) – *TLS Explained.*
 
 ### 📜 Scripts
 * 🔒 [testssl.sh Repository](https://github.com/testssl/testssl.sh) – *Classic command-line tool to test TLS/SSL encryption on any port.*
@@ -105,6 +109,19 @@
 
 ---
 
+## 🐧 Linux - General
+* ⚠️ [Linux Privilege Escalation (CVE-2026-31431)](https://guardsix.com/blog/linux-privilege-escalation-cve-2026-31431-copy-fail-exploit-and-detection) - *Copy Fail Exploit and Detection*
+### 📜 Scripts
+<details>
+<summary>View Linux Scripts (Click to expand)</summary>
+
+*No scripts saved yet.*
+</details>
+
+[▲ Back to Top](#-table-of-contents)
+
+---
+
 ## 🐧 Linux - RHEL
 ### 📜 Scripts
 <details>
@@ -117,14 +134,17 @@
 
 ---
 
-## 🐧 Linux - General
-* ⚠️ [Linux Privilege Escalation (CVE-2026-31431)](https://guardsix.com/blog/linux-privilege-escalation-cve-2026-31431-copy-fail-exploit-and-detection) - *Copy Fail Exploit and Detection*
-### 📜 Scripts
-<details>
-<summary>View Linux Scripts (Click to expand)</summary>
 
-*No scripts saved yet.*
-</details>
+## ⚙️ MISC
+### 📋 Articles and Guides
+### 🛠️ Tools & Downloads
+* 🛡️ [WatchGuard Software Downloads](https://software.watchguard.com/SoftwareDownloads?current=true&familyId=a2RVr000000bJA9MAM) – *Quick link to WatchGuard software updates.*
+
+### 📜 Scripts & Applications
+* 𝍂 [Create custom QR codes](https://rodtrent.substack.com/p/creating-custom-qr-codes-with-logos) – *QR Code Generator with Optional Logo.*
+* 🔑 [PassPushPosh (New-Push.md)](https://github.com/adamburley/PassPushPosh/blob/main/Docs/New-Push.md) – *PowerShell module to interact with Password Pusher via API.*
+* 💻 [pwpush-cli](https://github.com/pglombardo/pwpush-cli) – *CLI tool for Password Pusher to safely send passwords from the terminal.*
+* 📂 [Filebrowser Repository](https://github.com/filebrowser/filebrowser?tab=readme-ov-file) – *A self-hosted web-based file manager interface.*
 
 [▲ Back to Top](#-table-of-contents)
 
@@ -146,19 +166,6 @@
 
 ---
 
-
-## ⚙️ MISC
-### 📋 Tools & Downloads
-* 🛡️ [WatchGuard Software Downloads](https://software.watchguard.com/SoftwareDownloads?current=true&familyId=a2RVr000000bJA9MAM) – *Quick link to WatchGuard software updates.*
-
-### 📜 Scripts & Applications
-* 🔑 [PassPushPosh (New-Push.md)](https://github.com/adamburley/PassPushPosh/blob/main/Docs/New-Push.md) – *PowerShell module to interact with Password Pusher via API.*
-* 💻 [pwpush-cli](https://github.com/pglombardo/pwpush-cli) – *CLI tool for Password Pusher to safely send passwords from the terminal.*
-* 📂 [Filebrowser Repository](https://github.com/filebrowser/filebrowser?tab=readme-ov-file) – *A self-hosted web-based file manager interface.*
-
-[▲ Back to Top](#-table-of-contents)
-
----
 
 ## 📝 Cheat Sheets
 
