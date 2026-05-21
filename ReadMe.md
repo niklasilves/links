@@ -77,7 +77,8 @@
 * 🎞️ [Demystifying the Windows Firewall](https://www.youtube.com/watch?v=InPiE0EOArs) – *Learn how to irritate attackers without crippli*
 
 ### 📜 Scripts
-* ⏱️ [Set-WindowsTimeZone.ps1 (Gist)](https://gist.github.com/asheroto/942db6b331db8f070472990da6e6e1db) – *Gist to automatically set the time zone based on location.*
+* ⏱️ [Optimize-TCPSettings.ps1 (Gist)](https://gist.github.com/asheroto/942db6b331db8f070472990da6e6e1db) – * Network performance optimization script for Windows.*
+* ⏱️ [Set-WindowsTimeZone.ps1 (Gist)](https://github.com/MSEndpointMgr/Intune/blob/master/Autopilot/Set-WindowsTimeZone.ps1) – *Automatically set the time zone based on location.*
 
 [▲ Back to Top](#-table-of-contents)
 
