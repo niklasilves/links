@@ -3,8 +3,8 @@
 #### 📋 Table of Contents
 
 - [☁️ Azure](#️-azure)
-- [🔑 Microsoft AD CS](#-microsoft-ad-cs)
-- [🏛️ Microsoft AD DS](#️-microsoft-ad-ds)
+- [🔑 Microsoft ADCS](#-microsoft-adcs)
+- [🏛️ Microsoft ADDS](#️-microsoft-adds)
 - [🖥️ Microsoft Windows Server](#️-microsoft-windows-server)
 - [🌐 PKI (Public Key Infrastructure)](#-pki-public-key-infrastructure)
 - [📋 Zero Trust](#-zero-trust)
@@ -53,7 +53,7 @@
 
 ---
 
-# 🔑 Microsoft AD CS
+# 🔑 Microsoft ADCS
 
 #### 📋 Articles & Guides
 
@@ -138,7 +138,7 @@
 
 ---
 
-# 🏛️ Microsoft AD DS
+# 🏛️ Microsoft ADDS
 
 #### 📋 Articles & Guides
 
