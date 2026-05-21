@@ -60,7 +60,7 @@
 - 📄 **Moving Online Responder (OCSP) to Custom Web URL**  
   https://www.sysadmins.lv/blog-en/moving-online-responder-ocsp-to-custom-web-url.aspx  
   *Configure OCSP responder with custom web URL.*  
-  `OCSP` `OnlineResponder` `PKI`
+  `OCSP` `OnlineResponder` `PKI` `ADCS`
 
 - 📄 **CodeSigning Timestamping Guide**  
   https://www.ssltrust.ca/help/setup-guides/program-signing-and-timestamping-with-signtool  
@@ -79,7 +79,7 @@
 
 - 📄 **CodeSigning Timestamping**  
   https://www.signfiles.com/timestamping/  
-  *Timestamping services such as SignServer from Keyfactor.*  
+  *Application and services for timestamping in ADCS environments. such as SignServer from Keyfactor.*  
   `Timestamping` `CodeSigning`
 
 - 📄 **Constraints — What They Are and How They're Used**  
@@ -121,11 +121,6 @@
   https://www.gradenegger.eu/en/the-certification-authority-service-does-not-start-and-throws-the-error-message-0x80092013-2146885613-crypt_e_revocation_offline/  
   *Troubleshooting CA startup issues caused by revocation failures.*  
   `CRL` `Troubleshooting` `ADCS`
-
-- 📋 **CodeSigning with Timestamp**  
-  https://www.signfiles.com/timestamping/  
-  *Application and services for timestamping in ADCS environments.*  
-  `CodeSigning` `Timestamping` `ADCS`
 
 #### 📜 Scripts
 
