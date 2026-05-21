@@ -70,7 +70,6 @@
 
 ---
 
-
 ## 🖥️ Microsoft Windows Server
 ### 📋 Articles and Guides
 * 📄 [Automate WinRM on HTTPS](https://kb.ilves.se) – *Guide how to configure WinRM over HTTPS.*
@@ -99,7 +98,6 @@
 [▲ Back to Top](#-table-of-contents)
 
 ---
-
 
 ## 📋 Zero Trust
 ### 📋 Articles and Guides
@@ -135,7 +133,6 @@
 
 ---
 
-
 ## ⚙️ MISC
 ### 📋 Articles and Guides
 ### 🛠️ Tools & Downloads
@@ -167,9 +164,10 @@
 
 ---
 
-
 ## 📝 Cheat Sheets
 
 * ⌨️ [VS Code Keyboard Shortcuts for macOS (PDF)](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf) – *Official cheat sheet for VS Code shortcuts on Mac.*
 
 [▲ Back to Top](#-table-of-contents)
+
+---
