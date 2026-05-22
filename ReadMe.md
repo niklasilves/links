@@ -68,7 +68,12 @@
 
 # 🌐 PKI & Certificates
 
-- 📄 **AWindows PKI Documentation Reference and Library**
+- 📄 **Secure Configuration and Hardening of Active Directory Certificate Services**
+  https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/secure-configuration-and-hardening-of-active-directory-certificate-services/4463240
+  *Microsoft documentation on PKI and ADCS.*
+  `hardening` `PKI` `ADCS` 
+
+- 📄 **Windows PKI Documentation Reference and Library**
   https://aka.ms/pkilibrary
   *Microsoft documentation on PKI and ADCS.*
   `abuse` `PKI` `ADCS` `ESC` 
