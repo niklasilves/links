@@ -68,6 +68,11 @@
 
 # 🌐 PKI & Certificates
 
+- 📄 **AWindows PKI Documentation Reference and Library**
+  https://aka.ms/pkilibrary
+  *Microsoft documentation on PKI and ADCS.*
+  `abuse` `PKI` `ADCS` `ESC` 
+
 - 📄 **Abusing Active Directory Certificate Services**
   https://specterops.io/wp-content/uploads/sites/3/2022/06/Certified_Pre-Owned.pdf
   *Vulnerability descibed and how to manage them.*
