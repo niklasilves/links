@@ -235,6 +235,11 @@
 
 # 🛡️ Security & Hardening
 
+- 🚑 **Restored a Lost Active Directory from Entra Objects**
+  https://www.mscloudninja.com/pages/restore-ad-from-entra.html
+  *A complete guide to rebuilding your Active Directory forest using Entra ID as the source of truth after ransomware destruction.*
+  `EntraID` `Ransomware` `ADDS`
+
 - 🎞️ **Implementing PAW**
   https://www.youtube.com/watch?v=lYVhwL11pMI
   *Implementing Privileged Access Workstations.*
@@ -291,6 +296,11 @@
   https://guardsix.com/blog/linux-privilege-escalation-cve-2026-31431-copy-fail-exploit-and-detection
   *Copy Fail exploit and detection techniques.*
   `Linux` `CVE`
+
+- ⏱️ **You Don't Love systemd Timers Enough**
+  https://blog.tjll.net/you-dont-love-systemd-timers-enough/
+  *Systemd explained.*
+  `Linux` `systemd`
 
 [▲ Back to Top](#-table-of-contents)
 
